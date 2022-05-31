@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(25, 162, 174);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+
+.container .avatar {
+    position: absolute;
+    display: flex;
+    width: 90px;
+    border-radius: 100%;
+    border: 4px solid white;
+    padding: 0px;
+    align-self: center;
+    justify-self: center;
+}
+
+.container .heading h1 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 18px;
+}
